@@ -21,7 +21,6 @@ type
     GroupBox1: TGroupBox;
     CheckBox1: TCheckBox;
     Label4: TLabel;
-    Bevel3: TBevel;
     SpeedButton2: TSpeedButton;
     XPManifest1: TXPManifest;
     BitBtn1: TBitBtn;
@@ -88,7 +87,7 @@ end;
 procedure TForm1.Label4Click(Sender: TObject);
 // Отправить письмо мне
 begin
-  ShellExecute(0,'open', 'mailto:talipovsn@hotmail.com'+
+  ShellExecute(0,'open', 'mailto:talipovsn@gmail.com'+
     '?Subject=Числитель/Знаменатель',0,0,SW_SHOWNORMAL);
 end;
 
